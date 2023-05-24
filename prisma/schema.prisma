@@ -44,3 +44,7 @@ model Link {
   userId      Int?
   
 }
+
+// model VersionInfo {
+//   version   String
+// }

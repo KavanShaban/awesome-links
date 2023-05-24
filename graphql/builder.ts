@@ -29,5 +29,10 @@ builder.queryType({
         ok: t.boolean({
             resolve: () => true,
         }),
+        version: t.string({
+            resolve: () => '1.00.00',
+        })
     }),
 });
+
+builder.mutationType({})
