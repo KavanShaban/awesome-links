@@ -8,7 +8,8 @@
     "start": "next start",
     "prisma_migrate": "npx prisma migrate dev --name init",
     "prisma_seed": "npx prisma db seed",
-    "prisma_studio": "npx prisma studio"
+    "prisma_studio": "npx prisma studio",
+    "ngrok": "npx ngrok http 3000"
   },
   "dependencies": {
     "@apollo/client": "^3.7.14",
